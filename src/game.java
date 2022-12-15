@@ -72,15 +72,6 @@ class  Questions {
         this.title = title;
         this.answers = answers;
     }
-
-    @Override
-    public String toString() {
-        String r = "";
-        for (int i = 0; i < answers.length;i++){
-            r = r + answers[i].toString() + "\n";
-        }
-        return (r);
-    }
 }
 
 class Answers{
