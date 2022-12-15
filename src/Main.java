@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.logging.XMLFormatter;
 
-public class Main {
+public class Main  {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Создание викторины!\nВведите название викторины:");

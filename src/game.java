@@ -65,7 +65,7 @@ public class game  {
     }
 }
 
-class  Questions{
+class  Questions {
     public String title;
     public Answers[] answers;
     public Questions(String title, Answers[] answers){
