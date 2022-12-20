@@ -8,7 +8,7 @@ public class Main  {
         Scanner scan = new Scanner(System.in);
         System.out.println("Создание викторины!\nВведите название викторины:");
         String name = scan.nextLine();
-        game g = new game(name);
+        Game g = new Game(name);
         g.creatre_game();
         g.start_game();
 
